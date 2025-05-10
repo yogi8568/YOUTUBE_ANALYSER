@@ -28,15 +28,15 @@ A Python automation tool that finds and analyzes YouTube videos based on voice o
 
 Create a .env file in the project directory:
 
-YOUTUBE_API_KEY=your_youtube_api_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
-
+    ```bash
+    YOUTUBE_API_KEY=your_youtube_api_key_here
+    GEMINI_API_KEY=your_gemini_api_key_here
 
 4.Usage 🚀
-Run the application:
+      Run the application:
+  ```bash
+      python youtube_finder.py
 
-bash
-python youtube_finder.py
 Choose input method:
 
 1. Voice input
